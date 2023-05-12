@@ -1,0 +1,101 @@
+body{padding: 0;margin: 0;}
+a{text-decoration: none;color: #140D27;}
+#headlogo{font-family: 'Signika Negative';font-style: normal;font-weight: 700;font-size: 24px;line-height: 30px;text-transform: uppercase;}
+.frame{width: 90%;max-width: 1600px;margin: auto;}
+.anasayfa {background-image: url(img/Frame\ 3693.png);background-size: 100% auto;}
+.head{display: flex;justify-content: space-between;padding: 20px 0;align-items: center;margin-bottom: 100px;}
+.head .menu{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 14px;line-height: 18px;text-align: center;color: #140D27;}
+.head .menu a{padding: 0 15px;transition: all .2s;}
+.head .menu a:hover{color: #D6EF67;transition: all .2s;}
+.headsocial a{padding: 0 7px;transition: all .2s;}
+.headsocial a:hover svg path{fill: #D6EF67;transition: all .4s;}
+.flex{display: flex;}
+.flex1{display: flex;justify-content: space-between;}
+.aligncenter{align-items: center;}
+.anasayfa .left{width: 48%;}
+.anasayfa .left h1{font-family: 'Ubuntu';font-style: normal; z-index: 999; font-weight: 700;font-size: 50px;line-height: 74px;color: #140D27;}
+.anasayfa .left p{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #534F61;}
+.anasayfa .right{width: 48%;}
+.anasayfa .right img{width: 100%;}
+.anasayfa .strip{margin-bottom:140px;padding:50px 0;margin-top:100px;border: 1px solid #F2F2F2;font-family: 'Ubuntu';font-style: normal;font-weight: 400;font-size: 20px;line-height: 23px;text-align: center;letter-spacing: -0.02em;color: #140D27;}
+.anasayfa .strip p{margin: 0;margin-bottom:30px;padding: 0;}
+.anasayfa .strip i{color: #6200EE;font-style: normal;}
+.anasayfa .strip img{width: 80%;}
+.btn{display: flex;justify-content: space-between;background: #D6EF67;border-radius: 60px;align-items: center;padding: 15px 20px;font-family: 'Sarabun';font-style: normal;font-weight: 500;}
+.btn svg{border-left:1px solid #140D27;padding-left: 10px;margin-left: 8px;}
+.conf{margin-top:40px; display: flex;justify-content: space-between;align-items: center;font-family: 'Ubuntu';font-style: normal;font-weight: 400;color: #140D27;}
+.conf svg{margin-right: 10px;}
+.neden{padding-bottom:50px;background-image: url(img/nedenback.jpg);background-size: 100%;padding-top: 100px;}
+.neden .left{width: 45%;position: relative;}
+.neden .left img{position: absolute;bottom:-50px;width: 100%;margin-top: 50px;margin-bottom: -0px;}
+.neden .right{position: relative;padding-right: 10%;}
+.neden .right a{background-color: #6200EE;padding:15px 20px;border-radius: 60px;font-family: 'Ubuntu';font-style: normal;font-weight: 500;font-size: 18px;color: #FFFFFF;margin-top:10%;}
+.neden .right h2{margin-bottom:35px;font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 64px;line-height: 74px;color: #140D27;}
+.neden .right p{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #140D27;}
+.neden .right i{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #6200EE;}
+.neden .right .flex1 .card {text-align: center;width: 230px;margin-top: 50px;}
+.neden .right .flex1 .card h3{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 24px;line-height: 32px;text-align: center;color: #140D27;}
+.neden .right .flex1 .card p{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 16px;line-height: 24px;text-align: center;color: #534F61;}
+.neden .right #arrow{position: absolute;right: 10px;top: -50px;}
+.hikayemiz{margin-top: 140px;padding-bottom:200px;background: linear-gradient(180.54deg, rgba(255, 255, 255, 0.06) 47.05%, rgba(100, 115, 154, 0.06) 99.5%);position: relative;}
+.hikayemiz #arrow1{position: absolute;right: 20%;top: 70px;}
+.hikayemiz #circle{position: absolute;right: 0;bottom: -230px;}
+.hikayemiz h2{margin-bottom:120px;font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 48px;line-height: 60px;text-align: center;color: #140D27;}
+.hikayemiz .flex1 .left{width: 55%;}
+.hikayemiz .flex1 .left img{width: 100%;}
+.hikayemiz .flex1 .right{width: 44%;}
+.hikayemiz .flex1 .right h3{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 30px;line-height: 34px;color: #140D27;}
+.hikayemiz .flex1 .right p{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #534F61;}
+.nasil-calisir{padding:200px 0;background-image: url(img/Frame\ 3693.png);background-size: 100% auto;}
+.nasil-calisir a{margin-top:200px;background-color: #6200EE;padding:15px 20px;border-radius: 60px;font-family: 'Ubuntu';font-style: normal;font-weight: 500;font-size: 18px;color: #FFFFFF;margin-top:10%;}
+.nasil-calisir h2{margin-bottom:100px;font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 48px;line-height: 60px;color: #140D27;}
+.nasil-calisir .flex{width: 51%;justify-content: space-between;}
+.nasil-calisir .flex1 {width: 65%;}
+.nasil-calisir .flex1 .card{width: calc(100% / 3 - 50px);}
+.nasil-calisir .flex1 .card h3{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 24px;line-height: 30px;color: #140D27;}
+.nasil-calisir .flex1 .card p{font-family: 'Ubuntu';font-style: normal;font-weight: 400;font-size: 16px;line-height: 34px;color: #534F61;}
+.nasil-calisir {position: relative;}
+.nasil-calisir img{position: absolute; right: 0;width: 25%;top: 170px;}
+.brand{background: #140D27;padding: 0px 0;position: relative;display: flex; align-items: center;justify-content: space-between;}
+.brand b{font-family: 'Ubuntu';position: relative;font-style: normal;font-weight: 700;font-size: 32px;line-height: 48px;color: #FFFFFF;}
+.brand b svg{position: absolute;right: 140px;top: 20px;}
+.brand .btn{width: 120px;margin-right: 100px;}
+.brand img{width: 300px;}
+.btn svg{border-left: 1px solid #AFC25A;padding-left: 15px;margin-left: 8px;}
+.iletisim{position: relative;}
+.iletisim h2{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 64px;line-height: 74px;color: #140D27;}
+.iletisim p{margin-bottom: 60px; font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #534F61;}
+.iletisim a{padding: 15px 30px; background: #140D27;border-radius: 60px;font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 26px;color: #FFFFFF;}
+.iletisim .left{width: 40%;}
+.iletisim .right{width: 55%;}
+.iletisim .right img{width: 100%;}
+.kullanici-yorumlari{position: relative;padding: 140px 0 100px 0; background: rgba(100, 115, 154, 0.06);}
+.kullanici-yorumlari a{border-radius: 60px;background: #6200EE;padding: 15px 20px;font-family: 'Ubuntu';font-style: normal;font-weight: 500;font-size: 18px;line-height: 30px;color: #FFFFFF;}
+.kullanici-yorumlari h2{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 48px;line-height: 60px;color: #140D27;}
+.kullanici-yorumlari p{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #534F61;}
+.kullanici-yorumlari .right{width: 45%;}
+.kullanici-yorumlari .left{width: 45%;z-index: 5;}
+.kullanici-yorumlari .left img{width: 100%;z-index: 5;}
+.kullanici-yorumlari #k1{position: absolute;left: 0;top: 400px;z-index: 1;}
+.kullanici-yorumlari #heart1{position: absolute;right: 300px;top: 240px;z-index: 1;}
+.brand1{padding: 30px 0; background: #D6EF67;}
+.brand1 b{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 32px;line-height: 48px;color: #140D27;}
+.brand1 i{color: #F9896B; font-style: normal;}
+.brand1 .frame .flex{margin-top:40px;}
+.brand1 .left{width: 50%;padding-left: 40px;}
+.brand1 .left img{width: 60%;margin-bottom: -34px}
+.brand1 .right{width: 45%;}
+.sss {position: relative; padding:170px 0;padding-bottom: 0; background-image: url(img/Frame\ 3693.png);background-size: 100% auto;}
+.sss h2{font-family: 'Ubuntu';font-style: normal;font-weight: 700;font-size: 48px;line-height: 60px;color: #140D27;}
+.sss .aciklama{font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 20px;line-height: 34px;color: #534F61;}
+.sss .list .card{transition: all .2s;border-bottom: 1px solid #E0E0E0;padding: 25px 0; font-family:'Ubuntu';font-style: normal;font-weight: 700;font-size: 24px;line-height: 30px;color: #140D27;}
+.sss .list .card svg{margin-left: 20px;}
+.sss .list .card:hover{cursor: pointer;color: #6200EE;transition: all .2s;}
+.sss .list .card:hover svg path{fill:#D6EF67;transition: all .2s;}
+.sss #pointer{left: 0;}
+.footer{background: #202020;color: #fff;padding: 80px 0;}
+.footer b{font-family: 'Signika Negative';font-style: normal;font-weight: 700;font-size: 24px;line-height: 30px;text-transform: uppercase;color: #FFFFFF;}
+.footer .menu a{margin: 0 20px; color:#fff;font-family: 'Sarabun';font-style: normal;font-weight: 500;font-size: 14px;line-height: 18px;text-align: center;flex: none;order: 0;flex-grow: 0;}
+.footer .social a{margin: 0 10px;}
+.footer .social a:hover svg circle{fill: #D6EF67;}
+.footer .copyright{margin-top:70px;font-family: 'Sarabun';font-style: normal;font-weight: 400;font-size: 12px;line-height: 26px;text-align:center;color: #E0E0E0;opacity: 0.6;}
