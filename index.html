@@ -15,6 +15,55 @@
 </head>
 
 <body>
+    <div class="mobilmenu frame">
+        <div class="logo1">
+            <a href="/" id="headlogo">KANKA.HOST</a>
+        </div>
+        <div class="menubuton" onclick="gizleGoster('menuresp');"><svg xmlns="http://www.w3.org/2000/svg"
+                width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M3 6C3 5.44772 3.44772 5 4 5H20C20.5523 5 21 5.44772 21 6C21 6.55228 20.5523 7 20 7H4C3.44772 7 3 6.55228 3 6ZM3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12ZM4 17C3.44772 17 3 17.4477 3 18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18C21 17.4477 20.5523 17 20 17H4Z"
+                    fill="#140D27" />
+            </svg>
+
+        </div>
+
+
+    </div>
+    <div class="menuresp" id="menuresp" style="left: -100%;">
+        <div class="menubuton" onclick="gizle('menuresp');">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M20.7071 4.70711C21.0976 4.31658 21.0976 3.68342 20.7071 3.29289C20.3166 2.90237 19.6834 2.90237 19.2929 3.29289L12 10.5858L4.70711 3.29289C4.31658 2.90237 3.68342 2.90237 3.29289 3.29289C2.90237 3.68342 2.90237 4.31658 3.29289 4.70711L10.5858 12L3.29289 19.2929C2.90237 19.6834 2.90237 20.3166 3.29289 20.7071C3.68342 21.0976 4.31658 21.0976 4.70711 20.7071L12 13.4142L19.2929 20.7071C19.6834 21.0976 20.3166 21.0976 20.7071 20.7071C21.0976 20.3166 21.0976 19.6834 20.7071 19.2929L13.4142 12L20.7071 4.70711Z"
+                    fill="#232227" />
+            </svg>
+        </div>
+        <a href="/">Anasayfa</a>
+        <a href="#neden-kanka-host">Neden Kanka.Host?</a>
+        <a href="#hikayemiz">Hikayemiz</a>
+        <a href="#nasil-calisir">Nasıl Çalışır?</a>
+        <a href="#iletisim">İletişim</a>
+    </div>
+
+    <script>
+        function gizleGoster(ID) {
+            var secilenID = document.getElementById(ID);
+            if (secilenID.style.left == "-100%") {
+                secilenID.style.left = "0%";
+                secilenID.style.transition = "all .5s"
+
+            }
+
+            else {
+                secilenID.style.left = "-100%";
+            }
+        }
+
+        function gizle(ID) {
+            var secilenID = document.getElementById(ID);
+            secilenID.style.left = "-100%";
+        }
+    </script>
     <div class="frame">
         <div class="anasayfa">
             <div class="head">
@@ -57,55 +106,7 @@
                         </svg></a>
                 </div>
             </div>
-            <div class="mobilmenu">
-                <div class="logo1">
-                    <a href="/" id="headlogo">KANKA.HOST</a>
-                </div>
-                <div class="menubuton" onclick="gizleGoster('menuresp');"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M3 6C3 5.44772 3.44772 5 4 5H20C20.5523 5 21 5.44772 21 6C21 6.55228 20.5523 7 20 7H4C3.44772 7 3 6.55228 3 6ZM3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12ZM4 17C3.44772 17 3 17.4477 3 18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18C21 17.4477 20.5523 17 20 17H4Z"
-                            fill="#140D27" />
-                    </svg>
 
-                </div>
-
-
-            </div>
-            <div class="menuresp" id="menuresp" style="left: -100%;">
-                <div class="menubuton" onclick="gizle('menuresp');">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M20.7071 4.70711C21.0976 4.31658 21.0976 3.68342 20.7071 3.29289C20.3166 2.90237 19.6834 2.90237 19.2929 3.29289L12 10.5858L4.70711 3.29289C4.31658 2.90237 3.68342 2.90237 3.29289 3.29289C2.90237 3.68342 2.90237 4.31658 3.29289 4.70711L10.5858 12L3.29289 19.2929C2.90237 19.6834 2.90237 20.3166 3.29289 20.7071C3.68342 21.0976 4.31658 21.0976 4.70711 20.7071L12 13.4142L19.2929 20.7071C19.6834 21.0976 20.3166 21.0976 20.7071 20.7071C21.0976 20.3166 21.0976 19.6834 20.7071 19.2929L13.4142 12L20.7071 4.70711Z"
-                            fill="#232227" />
-                    </svg>
-                </div>
-                <a href="/">Anasayfa</a>
-                <a href="#neden-kanka-host">Neden Kanka.Host?</a>
-                <a href="#hikayemiz">Hikayemiz</a>
-                <a href="#nasil-calisir">Nasıl Çalışır?</a>
-                <a href="#iletisim">İletişim</a>
-            </div>
-
-            <script>
-                function gizleGoster(ID) {
-                    var secilenID = document.getElementById(ID);
-                    if (secilenID.style.left == "-100%") {
-                        secilenID.style.left = "0%";
-                        secilenID.style.transition = "all .5s"
-
-                    }
-
-                    else {
-                        secilenID.style.left = "-100%";
-                    }
-                }
-
-                function gizle(ID) {
-                    var secilenID = document.getElementById(ID);
-                    secilenID.style.left = "-100%";
-                }
-            </script>
             <div class="flex1">
                 <div class="left">
                     <h1>Hey! Hayalindeki<br>yerleri keşfetmeye<span></span><br>hazır mısın?</h1>
@@ -295,7 +296,9 @@
             </svg>
             <div class="flex1 aligncenter">
                 <div class="left">
-                    <img src="img/hikaye.png" alt="Kanka.Host Hikayesi!">
+                    <img src="img/hikaye.png" id="hk" alt="Kanka.Host Hikayesi!">
+                    <img src="img/hikaye1.png" id="hk1" alt="Kanka.Host Hikayesi!">
+
                 </div>
                 <div class="right">
                     <h3>Hikayemiz</h3>
@@ -331,16 +334,18 @@
                             d="M43.4565 30.92V53H39.4565V36.552C39.4565 36.1893 39.4672 35.8267 39.4885 35.464C39.5312 35.1013 39.5845 34.7387 39.6485 34.376L34.3365 35.848L33.8245 33.16L39.4565 30.92H43.4565Z"
                             fill="#140D27" />
                     </svg>
-                    <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" width="152" height="47" viewBox="0 0 152 47"
-                        fill="none">
-                        <path
-                            d="M0.924275 29.475C2.65784 16.6166 13.1527 7.46965 25.2584 3.68795C39.26 -0.68441 54.224 1.73955 66.5043 9.46594C85.8352 21.6275 101.062 46.6849 126.36 46.9974C136.496 47.123 147.39 42.7207 151.92 33.2941C152.323 32.4552 151.092 31.7165 150.64 32.5569C144.949 43.1439 131.992 47.0856 120.516 44.8142C107.16 42.1719 96.5012 32.7094 86.7865 23.9153C77.6058 15.6058 68.1763 6.92691 56.21 2.74146C44.587 -1.32136 31.2549 -0.871315 19.992 4.11114C9.79466 8.62257 0.347123 17.8996 0.000287367 29.475C-0.0180709 30.0791 0.849021 30.0373 0.924275 29.475Z"
-                            fill="#140D27" />
-                    </svg>
+
                     <h3>Seçenekleri Gez</h3>
                     <p>Birbirinden farklı oda seçeneklerini kolayca gezebilirsin. Tarihleri ve konumu belirleyin, sonra
                         seni en uygun seçeneklerle eşleştirelim.</p>
                 </div>
+
+                <svg id="arrow4" xmlns="http://www.w3.org/2000/svg" width="152" height="47" viewBox="0 0 152 47"
+                fill="none">
+                <path
+                    d="M0.924275 29.475C2.65784 16.6166 13.1527 7.46965 25.2584 3.68795C39.26 -0.68441 54.224 1.73955 66.5043 9.46594C85.8352 21.6275 101.062 46.6849 126.36 46.9974C136.496 47.123 147.39 42.7207 151.92 33.2941C152.323 32.4552 151.092 31.7165 150.64 32.5569C144.949 43.1439 131.992 47.0856 120.516 44.8142C107.16 42.1719 96.5012 32.7094 86.7865 23.9153C77.6058 15.6058 68.1763 6.92691 56.21 2.74146C44.587 -1.32136 31.2549 -0.871315 19.992 4.11114C9.79466 8.62257 0.347123 17.8996 0.000287367 29.475C-0.0180709 30.0791 0.849021 30.0373 0.924275 29.475Z"
+                    fill="#140D27" />
+            </svg>
 
                 <div class="card">
                     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
@@ -349,16 +354,17 @@
                             d="M40.2565 30.5361C41.7285 30.5361 42.9978 30.6641 44.0645 30.9201C45.1312 31.1761 45.9525 31.6668 46.5285 32.3921C47.1258 33.0961 47.4245 34.1415 47.4245 35.5281C47.4245 36.4028 47.3178 37.2135 47.1045 37.9601C46.8912 38.7068 46.5072 39.4961 45.9525 40.3281C45.3978 41.1388 44.6298 42.0668 43.6485 43.1121L37.6325 49.5761C38.1658 49.4908 38.7205 49.4375 39.2965 49.4161C39.8938 49.3948 40.4698 49.3841 41.0245 49.3841H48.1285V53.0001H32.8965V50.7601C32.8965 50.4188 32.9392 50.1201 33.0245 49.8641C33.1098 49.5868 33.2592 49.3308 33.4725 49.0961L39.3285 42.6321C40.6725 41.2028 41.6858 39.9441 42.3685 38.8561C43.0512 37.7468 43.3818 36.7548 43.3605 35.8801C43.3392 35.3041 43.1898 34.8881 42.9125 34.6321C42.6352 34.3548 42.2405 34.1735 41.7285 34.0881C41.2165 34.0028 40.5872 33.9601 39.8405 33.9601C39.1365 33.9601 38.4645 33.9708 37.8245 33.9921C37.1845 34.0135 36.5018 34.0561 35.7765 34.1201C35.0725 34.1628 34.2405 34.2375 33.2805 34.3441L33.0885 31.3361C34.1125 31.1015 35.0298 30.9308 35.8405 30.8241C36.6512 30.7175 37.4085 30.6428 38.1125 30.6001C38.8165 30.5575 39.5312 30.5361 40.2565 30.5361Z"
                             fill="#140D27" />
                     </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="152" height="47" viewBox="0 0 152 47" fill="none"
-                        id="arrow3">
-                        <path
-                            d="M0.924275 29.475C2.65784 16.6166 13.1527 7.46965 25.2584 3.68795C39.26 -0.68441 54.224 1.73955 66.5043 9.46594C85.8352 21.6275 101.062 46.6849 126.36 46.9974C136.496 47.123 147.39 42.7207 151.92 33.2941C152.323 32.4552 151.092 31.7165 150.64 32.5569C144.949 43.1439 131.992 47.0856 120.516 44.8142C107.16 42.1719 96.5012 32.7094 86.7865 23.9153C77.6058 15.6058 68.1763 6.92691 56.21 2.74146C44.587 -1.32136 31.2549 -0.871315 19.992 4.11114C9.79466 8.62257 0.347123 17.8996 0.000287367 29.475C-0.0180709 30.0791 0.849021 30.0373 0.924275 29.475Z"
-                            fill="#140D27" />
-                    </svg>
+
                     <h3>Odanı Seç</h3>
                     <p>Filtreleme seçenekleri sayesinde, aradığın tarihlerde müsait olan odaları ve uygun fiyatları
                         değerlendirip en uygun odayı seçebilirsin.</p>
                 </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="152" height="47" viewBox="0 0 152 47" fill="none"
+                id="arrow3">
+                <path
+                    d="M0.924275 29.475C2.65784 16.6166 13.1527 7.46965 25.2584 3.68795C39.26 -0.68441 54.224 1.73955 66.5043 9.46594C85.8352 21.6275 101.062 46.6849 126.36 46.9974C136.496 47.123 147.39 42.7207 151.92 33.2941C152.323 32.4552 151.092 31.7165 150.64 32.5569C144.949 43.1439 131.992 47.0856 120.516 44.8142C107.16 42.1719 96.5012 32.7094 86.7865 23.9153C77.6058 15.6058 68.1763 6.92691 56.21 2.74146C44.587 -1.32136 31.2549 -0.871315 19.992 4.11114C9.79466 8.62257 0.347123 17.8996 0.000287367 29.475C-0.0180709 30.0791 0.849021 30.0373 0.924275 29.475Z"
+                    fill="#140D27" />
+            </svg>
                 <div class="card">
                     <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
                         <circle cx="40" cy="40" r="40" fill="#D6EF67" />
@@ -415,7 +421,8 @@
                     <a href="#">Hemen Başvur!</a>
                 </div>
                 <div class="right">
-                    <img src="img/iletisim.png" alt="Kanka.Host iletişim">
+                    <img src="img/gonullu1.png" id="il1" alt="Kanka.Host iletişim">
+                    <img src="img/iletisim.png" id="il" alt="Kanka.Host iletişim">
                 </div>
             </div>
 

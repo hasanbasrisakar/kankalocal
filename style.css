@@ -26,6 +26,7 @@ a {
 .anasayfa {
     background-image: url(img/Frame\ 3693.png);
     background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .head {
@@ -195,7 +196,7 @@ a {
 
 .neden .right {
     position: relative;
-    padding-right: 10%;
+    width: 50%;
 }
 
 .neden .right a {
@@ -371,6 +372,7 @@ a {
 .nasil-calisir .flex1 .card {
     width: calc(100% / 3 - 50px);
     position: relative;
+    text-align: center;
 }
 
 .nasil-calisir .flex1 .card h3 {
@@ -433,7 +435,7 @@ a {
 }
 
 .brand img {
-    width: 300px;
+    width: 400px;
 }
 
 .btn svg {
@@ -450,8 +452,8 @@ a {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 74px;
+    font-size: 48px;
+    line-height: 60px;
     color: #140D27;
 }
 
@@ -478,11 +480,11 @@ a {
 }
 
 .iletisim .left {
-    width: 40%;
+    width: 37%;
 }
 
 .iletisim .right {
-    width: 55%;
+    width: 63%;
 }
 
 .iletisim .right img {
@@ -548,8 +550,8 @@ a {
 
 .kullanici-yorumlari #heart1 {
     position: absolute;
-    right: 300px;
-    top: 240px;
+    right: 10%;
+    top: 220px;
     z-index: 1;
 }
 
@@ -734,12 +736,6 @@ a {
     display: none;
 }
 
-#arrow3,
-#arrow4 {
-    top: 6%;
-    right: 0;
-    position: absolute;
-}
 
 #logos1 {
     display: none;
@@ -760,6 +756,47 @@ a {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+#hk{
+    display: block;
+}
+
+#hk1{
+    display: none;
+}
+
+#il{
+    display: block;
+}
+
+#il1{
+    display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+    .neden .left img {
+        position: absolute;
+        bottom: -50px;
+        min-width: 700px;
+        width: 100%;
+        left: -200px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .nasil-calisir img {
+        position: absolute;
+        right: 0;
+        width: 25%;
+        min-width: 432px;
+        top: 192px;
+    }
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 1000px) {
     .panel p {
@@ -785,10 +822,12 @@ a {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 100%;
+        width: calc(100%-40px);
         align-items: center;
         height: 6rem;
-        padding: 0;
+        position: sticky;
+        background-color: white;
+        padding: 0 20px;
 
     }
 
@@ -883,11 +922,29 @@ a {
         font-size: 14px;
     }
 
+    #hk{
+        display: none;
+    }
+
+    #hk1{
+        display: block;
+    }
+
+    
+    #il{
+        display: none;
+    }
+
+    #il1{
+        display: block;
+    }
+
     .neden .right #arrow {
         position: absolute;
         right: 0px;
         width: 30%;
-        top: -100px;
+        top: -75px;
+        transform: rotate(34deg); 
     }
 
     .neden .right {
@@ -900,6 +957,7 @@ a {
         text-align: center;
         display: block;
         padding-bottom: 0;
+        padding-top: 60px;
     }
 
     .neden .frame .flex1 {
@@ -909,7 +967,9 @@ a {
     .neden .frame .flex1 .left {
         width: 100%;
     }
-
+    .neden .right{
+        width: 100%;
+    }
     .neden .right h2 {
         font-size: 28px;
         line-height: 36px;
@@ -957,6 +1017,7 @@ a {
         bottom: -50px;
         width: 100%;
         margin-top: 50px;
+        min-width: auto;
         margin-bottom: -4px;
     }
 
@@ -1025,6 +1086,7 @@ a {
     .nasil-calisir img {
         position: absolute;
         right: 0;
+        min-width: auto;
         width: 300px;
         top: auto;
         bottom: -150px;
