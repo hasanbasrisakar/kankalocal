@@ -1219,6 +1219,11 @@ a {
         background: #D6EF67;
     }
 
+    .brand1 .frame .flex {
+        justify-content: center;
+        margin-top: 40px;
+    }
+
     .sss {
         padding: 50px 0;
         padding-bottom: 0;
